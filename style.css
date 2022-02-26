@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
+}
+
+.section-1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#logo{
+    position: absolute;
+}
+
+.path{
+    stroke: black;
+    
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 534.0950927734375px;
+    stroke-dashoffset: 534.0950927734375px;
+}
+
+#logo path:nth-child(2){
+    stroke-dasharray: 309.3120422363281px;
+    stroke-dashoffset: 309.3120422363281px;
+}
+
+#logo path:nth-child(3){
+    stroke-dasharray: 198.14401245117188px;
+    stroke-dashoffset: 198.14401245117188px;
+}
+
+#logo path:nth-child(4){
+    stroke-dasharray: 339.03582763671875px;
+    stroke-dashoffset: 339.03582763671875px;
+}
+
+#logo path:nth-child(5){
+    stroke-dasharray: 377.30084228515625px;
+    stroke-dashoffset: 377.30084228515625px;
+}
+
+#logo path:nth-child(6){
+    stroke-dasharray: 503.28521728515625px;
+    stroke-dashoffset: 503.28521728515625px;
+}
+
+#logo path:nth-child(7){
+    stroke-dasharray: 309.3120422363281px;
+    stroke-dashoffset: 309.3120422363281px;
+}
+
+.transition-elt{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.transition{
+    height: 100vh;
+    width: 100vw;
+    background-color: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -1200px;
+}
+
+.transition-1{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(231, 40, 40);
+    transform: rotateZ(45deg);
+    position: absolute;
+    z-index: 1;
+    box-shadow: black 10px 20px 50px;
+    
+}
+
+.bloc-1{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(231, 40, 40);
+    z-index: 2;
+    margin-right: 100%;
+    /* right: 100%; */
+
+}
+
+.transition-2{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(0, 110, 255);
+    transform: rotateZ(45deg);
+    position: absolute;
+    z-index: 3;
+    box-shadow: black 10px 20px 50px;
+    
+}
+
+.bloc-2{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0, 110, 255);
+    z-index: 4;
+    margin-right: 100%;
+    /* right: 100%; */
+
+}
+
+.transition-3{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(240, 240, 240);
+    transform: rotateZ(45deg);
+    position: absolute;
+    z-index: 5;
+    box-shadow: black 10px 20px 50px;
+    
+}
+
+.bloc-3{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(240, 240, 240);
+
+    z-index: 6;
+    margin-right: 100%;
+}
+
+
+
+/* La section 2 avec les formes */
+
+.section-2{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility:hidden;
+
+}
+
+.feather{
+    width: 100px;
+    height: 100px;
+    stroke: black;
+    fill: transparent;
+    margin: 0 50px;
+
+    stroke-dasharray: 70px;
+    stroke-dashoffset: 70px;
+    -webkit-filter: none;
+    z-index: 7;
+}
+
+
+.black-hole{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background-size: cover;
+    z-index: 6;
+}
+
+.feather-circle{
+    background-size: cover;
+}
